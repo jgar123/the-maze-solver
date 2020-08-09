@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import 'bulma'
 import './style.scss'
-import HomePage from './components/HomePage'
+import Home from './components/Home'
 
 const App = () => (
-  <HomePage />
+  <Home />
 )
 
 ReactDOM.render(<App />, document.getElementById('root'))

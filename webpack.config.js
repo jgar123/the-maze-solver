@@ -24,7 +24,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve('src'),
     hot: true,
-    open: true,
+    open: false,
     port: 8000,
     watchContentBase: true,
     historyApiFallback: true
